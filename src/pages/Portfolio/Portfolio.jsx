@@ -1,5 +1,5 @@
 import './Portfolio.css';
-import Project from "../Project/Project.jsx";
+import Project from "../../components/Project/Project.jsx";
 
 const Portfolio = ({ }) => {
 

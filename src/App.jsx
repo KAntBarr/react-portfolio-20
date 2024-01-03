@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import Header from "./components/Header/Header.jsx";
 
-import AboutMe from "./components/AboutMe/AboutMe.jsx";
-import Contact from "./components/Contact/Contact.jsx";
-import Portfolio from "./components/Portfolio/Portfolio.jsx";
-import Resume from "./components/Resume/Resume.jsx";
+import AboutMe from "./pages/AboutMe/AboutMe.jsx";
+import Contact from "./pages/Contact/Contact.jsx";
+import Portfolio from "./pages/Portfolio/Portfolio.jsx";
+import Resume from "./pages/Resume/Resume.jsx";
 
 import Footer from "./components/Footer/Footer.jsx";
 
