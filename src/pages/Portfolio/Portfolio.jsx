@@ -6,6 +6,7 @@ const Portfolio = ({ }) => {
 
   return (
     <>
+      <h2>Look at my portfolio</h2>
     </>
   );
 }
