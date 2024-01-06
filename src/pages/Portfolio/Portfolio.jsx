@@ -16,7 +16,7 @@ const Portfolio = ({ }) => {
   return (
     <>
       <div className='container text-center text-md-start'>
-        <h2 className='mt-4 mt-lg-0 mb-4'>Past Learning Experiences</h2>
+        <h2 className='mt-5 mb-4'>Past Learning Experiences</h2>
         <div className='row align-items-center'>
           {/* <div className='col '> */}
             {/* <div className='d-flex justify-content-center'> */}
