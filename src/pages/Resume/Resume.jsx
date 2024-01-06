@@ -1,6 +1,6 @@
 import './Resume.css';
 
-import realResume from "../../assets/Resume-JanV1-24.pdf";
+import realResume from "../../../public/Resume-JanV1-24.pdf";
 import resumePic from "../../assets/resume.png";
 
 const Resume = ({ }) => {
