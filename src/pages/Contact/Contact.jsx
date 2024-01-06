@@ -4,7 +4,7 @@ const Contact = ({ }) => {
 
 
   return (
-    <form className='mt-5'>
+    <form className='mt-4 mt-md-5'>
       <h1>Contact Me</h1>
       <div className="mb-3">
         <label htmlFor="exampleInputName1" className="form-label">Name</label>

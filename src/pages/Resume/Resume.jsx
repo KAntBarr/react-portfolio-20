@@ -4,9 +4,9 @@ const Resume = ({ }) => {
 
 
   return (
-    <>
-      <h2>Look at this resume!</h2>
-    </>
+    <div className='mt-4 mt-md-5'>
+      <h1>Resume</h1>
+    </div>
   );
 }
 
