@@ -4,27 +4,33 @@ const Contact = ({ }) => {
 
 
   return (
-    <form className='mt-4 mt-md-5'>
-      <h1>Contact Me</h1>
-      <div className="mb-3">
-        <label htmlFor="exampleInputName1" className="form-label">Name</label>
-        <input type="name" className="form-control" id="exampleInputName1" />
-      </div>
-      <div className="mb-3">
-        <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
-        <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
-          <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
-      </div>
-      <div className="mb-3">
-        <label htmlFor="exampleInputMessage1" className="form-label">Message</label>
-        <textarea type="message" className="form-control" id="exampleInputMessage1" />
-      </div>
-      {/* <div className="mb-3 form-check">
+    <div className='container text-center'>
+      <div className='row'>
+        <div className='col-md-8 offset-md-2 col-lg-6 offset-lg-3'>
+          <form className='mt-4 mt-md-5 d-flex flex-column mx-3 flex-grow-1'>
+            <h1>Contact Me</h1>
+            <div className="mb-3 d-flex flex-column">
+              <label htmlFor="exampleInputName1" className="form-label text-start">Name</label>
+              <input type="name" className="form-control" id="exampleInputName1" />
+            </div>
+            <div className="mb-3 d-flex flex-column">
+              <label htmlFor="exampleInputEmail1" className="form-label text-start">Email address</label>
+              <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+              {/* <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div> */}
+            </div>
+            <div className="mb-3 d-flex flex-column">
+              <label htmlFor="exampleInputMessage1" className="form-label text-start">Message</label>
+              <textarea type="message" className="form-control" id="exampleInputMessage1" rows='4' />
+            </div>
+            {/* <div className="mb-3 form-check">
         <input type="checkbox" className="form-check-input" id="exampleCheck1" />
           <label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
       </div> */}
-      <button type="submit" className="btn btn-primary">Submit</button>
-    </form>
+            <button type="submit" className="btn btn-primary mx-auto px-4">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
   );
 }
 
