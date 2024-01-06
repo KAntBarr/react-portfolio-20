@@ -5,6 +5,8 @@ import './index.css';
 // import 'normalize.css';
 // import 'reset-css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 import App from './App.jsx';
 import Error from './pages/Error/Error.jsx';
