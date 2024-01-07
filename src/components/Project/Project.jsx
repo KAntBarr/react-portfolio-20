@@ -20,18 +20,16 @@ const Project = ({ imageSrc, imageAlt, cardText }) => {
           <div className="image-container"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}>
-
-            {/* <img
+            <img
               src={imageSrc}
               className="card-img-top"
               alt={imageAlt}
               style={{
-                height: 'auto', // Maintain aspect ratio
-                filter: isHovered ? 'brightness(150%)' : 'none', // Apply brightness filter on hover
-              }}
-            /> */}
 
-            {/* <div className="text-overlay">
+              }}
+            />
+
+            <div className='overlay-text card-img-top'>
               {isHovered && <Link
                 to="https://www.google.com"
                 target='_blank'
@@ -39,19 +37,6 @@ const Project = ({ imageSrc, imageAlt, cardText }) => {
               >
                 {imageAlt}
               </Link>}
-            </div> */}
-
-            <img
-              src={imageSrc}
-              className="card-img-top"
-              alt={imageAlt}
-              style={{
-                
-              }}
-            />
-
-            <div className='overlay-text card-img-top'>
-
             </div>
 
           </div>
