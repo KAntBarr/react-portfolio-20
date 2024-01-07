@@ -13,6 +13,10 @@ const Project = ({ imageSrc, imageAlt, cardText }) => {
     setIsHovered(false);
   };
 
+  const openModal = () => {
+    
+  };
+
   return (
     <div className='col-12 col-md-6 col-lg-4 mb-3'>
       <div className='d-flex justify-content-center'>
@@ -20,14 +24,6 @@ const Project = ({ imageSrc, imageAlt, cardText }) => {
           <div className="image-container"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}>
-            <img
-              src={imageSrc}
-              className="card-img-top"
-              alt={imageAlt}
-              style={{
-
-              }}
-            />
 
             <div className='overlay-text card-img-top'>
               {isHovered && <Link
@@ -38,6 +34,16 @@ const Project = ({ imageSrc, imageAlt, cardText }) => {
                 {imageAlt}
               </Link>}
             </div>
+
+            <img
+              src={imageSrc}
+              className="card-img-top"
+              alt={imageAlt}
+              style={{
+
+              }}
+              onClick={openModal}
+            />
 
           </div>
 

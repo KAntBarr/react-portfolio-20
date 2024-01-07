@@ -32,7 +32,7 @@ const Resume = ({ }) => {
             <div className="image-container"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}>
-                
+
               <div className='overlay-text card-img-top d-flex justify-content-center align-items-center'>
                 {isHovered && <Link
                   to="/Resume-JanV1-24.pdf"
@@ -45,11 +45,20 @@ const Resume = ({ }) => {
 
               <img src={resumePic} className="card-img-top blur" alt="Resume" onClick={openPdfInNewTab} />
 
-
             </div>
 
             <div className="card-body d-flex flex-column align-items-center">
-              <button href="#" className="btn btn-primary" style={{ maxWidth: '10em' }}>Download</button>
+              <a
+                href="/Resume-JanV1-24.pdf"
+                download="koby_b_resume.pdf"
+              >
+                <button
+                  className="btn btn-primary"
+                  style={{ maxWidth: '10em' }}
+                >
+                  Download
+                </button>
+              </a>
               <p className="card-text mt-1">Last Updated: 01/06/2024</p>
             </div>
 
