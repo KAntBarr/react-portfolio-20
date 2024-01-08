@@ -1,7 +1,21 @@
+import { useState, useEffect } from 'react';
 import './Contact.css';
 
 const Contact = ({ }) => {
 
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  // I think this updates only on the first page/state load
+  useEffect(() => {
+    
+  }, [])
+
+  // I think this might update after every state change
+  useEffect(() => {
+
+  });
 
   return (
     <div className='container text-center'>

@@ -33,7 +33,9 @@ const Resume = ({ }) => {
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}>
 
-              <div className='overlay-text-resume card-img-top d-flex justify-content-center align-items-center'>
+              <div className='overlay-text-resume card-img-top d-flex justify-content-center align-items-center'
+                onClick={openPdfInNewTab}
+              >
                 {isHovered && <Link
                   to={realResume}
                   target='_blank'
@@ -47,7 +49,6 @@ const Resume = ({ }) => {
                 src={resumePic}
                 className="card-img-top blur"
                 alt="Resume"
-                onClick={openPdfInNewTab}
               />
 
             </div>

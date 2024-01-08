@@ -43,7 +43,7 @@ const Footer = ({ }) => {
             </svg>
           </a></li>
 
-          <li className="ms-3"><a className="text-body-secondary" href="#">
+          <li className="ms-3"><a className="text-body-secondary" target="_blank" href="https://www.bmwblog.com/">
             <svg
               height="32"
               width="32"
