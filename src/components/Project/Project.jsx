@@ -57,8 +57,9 @@ const Project = ({ imageSrc, imageAlt, cardText, projectURL, githubURL }) => {
 
           </div>
 
-          <div className="card-body">
-            <p className="card-text">{cardText}</p>
+          <div className="card-body d-flex justify-content-between">
+            <p className="card-text mb-0">{cardText}</p>
+            <button className="btn btn-primary " style={{ lineHeight: 0}}>...</button>
           </div>
         </div>
       </div>

@@ -80,18 +80,18 @@ const Contact = ({ }) => {
               <label htmlFor="inputName" className="form-label text-start">Name</label>
               <input type="name" className="form-control" id="inputName" onBlur={handleName}
               aria-describedby="nameHelp" />
-              {isName && <div id="nameHelp" className="form-text text-start">A name must be provided</div>}
+              {isName && <div id="nameHelp" className="form-text text-start red-text">A name must be provided</div>}
             </div>
             <div className="mb-3 d-flex flex-column">
               <label htmlFor="inputEmail" className="form-label text-start">Email address</label>
               <input type="email" className="form-control" id="inputEmail" onBlur={handleEmail} aria-describedby="emailHelp" />
-              {isEmail && <div id="emailHelp" className="form-text text-start">A valid email must be provided</div>}
+              {isEmail && <div id="emailHelp" className="form-text text-start red-text">A valid email must be provided</div>}
             </div>
             <div className="mb-3 d-flex flex-column">
               <label htmlFor="inputMessage" className="form-label text-start">Message</label>
               <textarea type="message" className="form-control" id="inputMessage" onBlur={handleMessage} rows='4'
               aria-describedby="messageHelp" />
-              {isMessage && <div id="messageHelp" className="form-text text-start">Input must be provided</div>}
+              {isMessage && <div id="messageHelp" className="form-text text-start red-text">Input must be provided</div>}
             </div>
             {isValid 
             ? 
