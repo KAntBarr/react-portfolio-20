@@ -2,27 +2,31 @@
   filter: blur(3px);
 }
 
-.image-container {
+.image-container-resume {
   position: relative;
   display: inline-block;
 }
 
-.overlay-image {
+.overlay-image-resume {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.overlay-text {
+.overlay-text-resume {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0); /* Initially transparent */
-  transition: background-color 0.3s ease; /* Smooth transition effect */
+  background-color: rgba(255, 255, 255, 0);
+  /* transition: background-color 0.1s ease; */
 }
 
-.image-container:hover .overlay-text {
-  background-color: rgba(255, 255, 255, 0.84); /* Semi-transparent white */
+.image-container-resume:hover .overlay-text-resume {
+  background: radial-gradient(circle at center, transparent 20%, #000 60%);
+}
+
+.image-container-resume:hover .blur {
+  filter: none;
 }

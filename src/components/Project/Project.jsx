@@ -39,9 +39,6 @@ const Project = ({ imageSrc, imageAlt, cardText }) => {
               src={imageSrc}
               className="card-img-top"
               alt={imageAlt}
-              style={{
-
-              }}
               onClick={openModal}
             />
 

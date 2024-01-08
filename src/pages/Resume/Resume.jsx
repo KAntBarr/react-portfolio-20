@@ -29,13 +29,13 @@ const Resume = ({ }) => {
 
           <div className="card mx-auto" style={{ maxWidth: '500px' }}  >
 
-            <div className="image-container"
+            <div className="image-container-resume"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}>
 
-              <div className='overlay-text card-img-top d-flex justify-content-center align-items-center'>
+              <div className='overlay-text-resume card-img-top d-flex justify-content-center align-items-center'>
                 {isHovered && <Link
-                  to="/Resume-JanV1-24.pdf"
+                  to={realResume}
                   target='_blank'
                   className=""
                 >
@@ -43,13 +43,18 @@ const Resume = ({ }) => {
                 </Link>}
               </div>
 
-              <img src={resumePic} className="card-img-top blur" alt="Resume" onClick={openPdfInNewTab} />
+              <img
+                src={resumePic}
+                className="card-img-top blur"
+                alt="Resume"
+                onClick={openPdfInNewTab}
+              />
 
             </div>
 
             <div className="card-body d-flex flex-column align-items-center">
               <a
-                href="/Resume-JanV1-24.pdf"
+                href={realResume}
                 download="koby_b_resume.pdf"
               >
                 <button
