@@ -21,34 +21,46 @@ const Portfolio = ({ }) => {
           {/* <div className='col '> */}
             {/* <div className='d-flex justify-content-center'> */}
             <Project
-              imageAlt={'Tech Blog'}
               imageSrc={techBlog}
+              imageAlt={'Tech Blog'}
               cardText={'Tech Blog'}
+              projectURL={'https://tech-blog-ucb-92de467f20ab.herokuapp.com'}
+              githubURL={'https://github.com/KAntBarr/tech-blog-14'}
             />
             <Project
-              imageAlt={'Weather Dashboard'}
               imageSrc={weatherDashboard}
+              imageAlt={'Weather Dashboard'}
               cardText={'Weather Dashboard'}
+              projectURL={'https://kantbarr.github.io/weather-dashboard-6'}
+              githubURL={'https://github.com/KAntBarr/weather-dashboard-6'}
             />
             <Project
-              imageAlt={'Drink Movie Combo'}
               imageSrc={drinkMovieCombo}
+              imageAlt={'Drink Movie Combo'}
               cardText={'Drink Movie Combo'}
+              projectURL={'https://ucb-allstars-project-1.github.io/movie-cocktail-combo'}
+              githubURL={'https://github.com/ucb-allstars-project-1/movie-cocktail-combo'}
             />
             <Project
-              imageAlt={'Self Driving RC Car'}
               imageSrc={seniorProject}
+              imageAlt={'Self Driving RC Car'}
               cardText={'Self Driving RC Car'}
+              projectURL={'https://www.youtube.com/playlist?list=PLHFOvcVOvE2IlpS0oUwSvtJbdVLczmRdj'}
+              githubURL={'https://github.com/csus-cpe190-191-team2/Team2'}
             />
             <Project
-              imageAlt={'Quiz Site'}
               imageSrc={quizSite}
+              imageAlt={'Quiz Site'}
               cardText={'Quiz Site'}
+              projectURL={'https://kantbarr.github.io/js-quiz-site-4'}
+              githubURL={'https://github.com/KAntBarr/js-quiz-site-4'}
             />
             <Project
-              imageAlt={'Geeks Garage'}
               imageSrc={geeksGarage}
+              imageAlt={'Geeks Garage'}
               cardText={'Geeks Garage'}
+              projectURL={'https://geeks-garage-alpha-4b07057e044e.herokuapp.com/'}
+              githubURL={'https://github.com/ucb-geeks-garage-p2/geeks-garage'}
             />
             {/* </div> */}
           {/* </div> */}
