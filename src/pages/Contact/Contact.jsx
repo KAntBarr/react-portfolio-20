@@ -11,6 +11,7 @@ const Contact = ({ }) => {
   const [isMessage, setMessage] = useState(false);
   const [isValid, setValid] = useState(false);
   const [isNew, setNew] = useState(true);
+  const [showThanks, setThanks] = useState(false);
 
   useEffect(() => {
     if (!isName && !isEmail && !isMessage && !isNew) { // work on submit button logic
@@ -18,13 +19,7 @@ const Contact = ({ }) => {
     } else {
       setValid(false);
     }
-    
-  }, [isName, isEmail, isMessage])
-
-  // I think this might update after every state change
-  useEffect(() => {
-
-  });
+  }, [isName, isEmail, isMessage, isNew])
 
   const handleName = (event) => {
     const name = event.target.value.trim();
@@ -60,7 +55,18 @@ const Contact = ({ }) => {
 
   const handleSubmission = (event) => {
     event.preventDefault();
-    console.log('oh poops');
+    
+    const resetThanks = () => {
+      setThanks(false);
+    }
+    
+    setThanks(true);
+    setTimeout(resetThanks, 7500);
+
+    document.getElementById("inputMessage").value = '';
+    setNew(true);
+
+    // event.target.reset();
   }
 
 
@@ -97,7 +103,7 @@ const Contact = ({ }) => {
             type="submit" 
             className="btn btn-primary mx-auto px-4" disabled>Submit</button>
             }
-            <div id="messageHelp" className="form-text mt-3">Thank you for submitting a message</div>
+            {showThanks && <div id="messageHelp" className="form-text mt-3">Thank you for submitting a message</div>}
           </form>
         </div>
       </div>
