@@ -1,5 +1,6 @@
 import './Portfolio.css';
 import Project from "../../components/Project/Project.jsx";
+import Modal from '../../components/Modal/Modal.jsx';
 
 // import seniorProject from "../../assets/senior_project_rc-car.jpg";
 // import seniorProject from "../../assets/senior_rc-car.png";
@@ -66,6 +67,11 @@ const Portfolio = ({ }) => {
           {/* </div> */}
         </div>
       </div>
+
+
+      <Modal 
+        
+      />
     </>
   );
 }
