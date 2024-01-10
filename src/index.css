@@ -2,4 +2,18 @@
 /* @import 'reset-css'; */
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
+:root {
+  /* Colors */
+  --color-thistle: #c8b8dbff;
+  --color-ivory: #fffef0ff;
+  --color-black-olive: #373d29ff;
+  --color-palatinate: #5a0b4dff;
+  --color-plum: #8d3b72ff;
 
+  /* Fonts */
+  --font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: var(--color-palatinate) !important;
+}

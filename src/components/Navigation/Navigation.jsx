@@ -9,7 +9,11 @@ function Nav() {
     // <ul className="nav nav-pills col-12 col-md-auto mb-2 justify-content-center mb-md-0">
     // </ul>
 
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark flex-grow-1" aria-label="Third navbar example">
+    <nav
+      className="navbar navbar-expand-sm navbar-dark bg-dark flex-grow-1"
+      aria-label="Third navbar example"
+      style={{}}
+      >
       {/* <a className="navbar-brand px-4" href="/">Koby</a> */}
       <div className="container-fluid justify-content-end">
 
