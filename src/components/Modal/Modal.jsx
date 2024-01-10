@@ -15,7 +15,7 @@ const Modal = ({ }) => {
   const [projectSummaryNum, setSumNum] = useState('');
 
   useEffect(() => {
-    const modalElement = document.getElementById('projectModal'); // Replace with your modal ID
+    const modalElement = document.getElementById('projectModal');
 
     const handleShow = (event) => {
       console.log('Modal is about to show');

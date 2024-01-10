@@ -14,7 +14,7 @@ const Project = ({ imageSrc, imageAlt, cardText, projectURL, githubURL, projectS
     <>
       <div className='col-12 col-md-6 col-lg-4 mb-3'>
         <div className='d-flex justify-content-center'>
-          <div className="card" style={{ width: '18rem' }}>
+          <div className="card card-special" style={{ width: '18rem' }}>
             <div className="image-container"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}>

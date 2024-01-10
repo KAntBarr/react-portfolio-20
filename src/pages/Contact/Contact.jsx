@@ -13,6 +13,24 @@ const Contact = ({ }) => {
   const [isNew, setNew] = useState(true);
   const [showThanks, setThanks] = useState(false);
 
+  // useEffect(() => {
+  //   const messageElement = document.getElementById('inputMessage');
+
+  //   const handleInput = (event) => {
+  //     console.log('handling input');
+  //     if (event.target.value.length.trim > 0) setMessage(false);
+  //     else setMessage(true);
+  //   };
+
+  //   if (messageElement) {
+  //     messageElement.addEventListener('input', handleInput);
+
+  //     return () => {
+  //       messageElement.removeEventListener('input', handleInput);
+  //     };
+  //   }
+  // }, []);
+
   useEffect(() => {
     if (!isName && !isEmail && !isMessage && !isNew) { // work on submit button logic
       setValid(true);
@@ -20,6 +38,8 @@ const Contact = ({ }) => {
       setValid(false);
     }
   }, [isName, isEmail, isMessage, isNew])
+
+  
 
   const handleName = (event) => {
     const name = event.target.value.trim();
@@ -55,11 +75,11 @@ const Contact = ({ }) => {
 
   const handleSubmission = (event) => {
     event.preventDefault();
-    
+
     const resetThanks = () => {
       setThanks(false);
     }
-    
+
     setThanks(true);
     setTimeout(resetThanks, 7500);
 
@@ -79,7 +99,7 @@ const Contact = ({ }) => {
             <div className="mb-3 d-flex flex-column">
               <label htmlFor="inputName" className="form-label text-start">Name</label>
               <input type="name" className="form-control" id="inputName" onBlur={handleName}
-              aria-describedby="nameHelp" />
+                aria-describedby="nameHelp" />
               {isName && <div id="nameHelp" className="form-text text-start red-text">A name must be provided</div>}
             </div>
             <div className="mb-3 d-flex flex-column">
@@ -90,20 +110,20 @@ const Contact = ({ }) => {
             <div className="mb-3 d-flex flex-column">
               <label htmlFor="inputMessage" className="form-label text-start">Message</label>
               <textarea type="message" className="form-control" id="inputMessage" onBlur={handleMessage} rows='4'
-              aria-describedby="messageHelp" />
+                aria-describedby="messageHelp" />
               {isMessage && <div id="messageHelp" className="form-text text-start red-text">Input must be provided</div>}
             </div>
-            {isValid 
-            ? 
-            <button 
-            type="submit" 
-            className="btn btn-primary mx-auto px-4">Submit</button> 
-            : 
-            <button 
-            type="submit" 
-            className="btn btn-primary mx-auto px-4" disabled>Submit</button>
+            {isValid
+              ?
+              <button
+                type="submit"
+                className="btn btn-primary mx-auto px-4">Submit</button>
+              :
+              <button
+                type="submit"
+                className="btn btn-primary mx-auto px-4" disabled>Submit</button>
             }
-            {showThanks && <div id="messageHelp" className="form-text mt-3">Thank you for submitting a message</div>}
+            {showThanks && <div id="messageHelp" className="form-text mt-3">The contact form is not fully functional yet, thank you for the message anyways!</div>}
           </form>
         </div>
       </div>
