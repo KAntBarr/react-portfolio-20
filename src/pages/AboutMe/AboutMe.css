@@ -4,6 +4,14 @@
   border-radius: 50%; /* Makes the div a circle */
   overflow: hidden; /* Clips the image to the circle */
   border: 2px white solid;
+  filter: grayscale(100%);
+  transition: filter 1s ease;
+}
+
+.circle:hover {
+  filter: none;
+  border: 2px var(--color-third) solid;
+  box-shadow: 0 0 8px 3px rgba(255, 255, 255, 0.7);
 }
 
 .ptext {

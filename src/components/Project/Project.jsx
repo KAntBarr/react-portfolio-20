@@ -50,23 +50,28 @@ const Project = ({ imageSrc, imageAlt, cardText, projectURL, githubURL, projectS
                 alt={imageAlt}
                 data-bs-toggle="modal"
                 data-bs-target="#projectModal"
+                data-bs-imagesrc={imageSrc}
+                data-bs-imagealt={imageAlt}
+                data-bs-cardtext={cardText}
+                data-bs-projecturl={projectURL}
+                data-bs-githuburl={githubURL}
+                data-bs-projectsummarynum={projectSummaryNum}
               />
 
             </div>
-              {/* imageSrc, imageAlt, cardText, projectURL, githubURL, projectSummaryNum */}
             <div className="card-body d-flex justify-content-between">
               <p className="card-text mb-0">{cardText}</p>
-              <button 
-              className="btn btn-primary " 
-              data-bs-toggle="modal" 
-              data-bs-target="#projectModal"
-              data-bs-imagesrc={imageSrc}
-              data-bs-imagealt={imageAlt}
-              data-bs-cardtext={cardText}
-              data-bs-projecturl={projectURL}
-              data-bs-githuburl={githubURL}
-              data-bs-projectsummarynum={projectSummaryNum}
-              style={{ lineHeight: 0 }}>...</button>
+              <button
+                className="btn btn-primary "
+                data-bs-toggle="modal"
+                data-bs-target="#projectModal"
+                data-bs-imagesrc={imageSrc}
+                data-bs-imagealt={imageAlt}
+                data-bs-cardtext={cardText}
+                data-bs-projecturl={projectURL}
+                data-bs-githuburl={githubURL}
+                data-bs-projectsummarynum={projectSummaryNum}
+                style={{ lineHeight: 0 }}>...</button>
             </div>
           </div>
         </div>
