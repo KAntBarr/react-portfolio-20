@@ -4,3 +4,8 @@
   stroke-width: 0.15;
   filter: invert(100%);
 }
+
+.border-top {
+  /* border-top: var(--bs-border-width) var(--bs-border-style) var(--color-fourth) !important; */
+  border-top: 1px var(--bs-border-style) var(--color-fourth) !important;
+}

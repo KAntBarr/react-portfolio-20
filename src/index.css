@@ -10,10 +10,86 @@
   --color-palatinate: #5a0b4dff;
   --color-plum: #8d3b72ff;
 
+  --color-night: #141115ff;
+  --color-french-violet: #6622ccff;
+  --color-ultra-violet: #4f517dff;
+
+  --color-mauve: #cba8f5ff;
+  --color-madder: #a71d31ff;
+
+  --color-periwinkle: #c9c9eeff;
+  --color-rose-quartz: #baabbdff;
+  --color-persian-indigo: #320d6dff;
+  --color-raspberry-rose: #aa4465ff;
+
+  --color-tekhelet: #53229cff;
+
+  --color-first: var(--color-ultra-violet);
+  --color-second: var(--color-periwinkle);
+  --color-third: var(--color-persian-indigo);
+  --color-fourth: var(--color-ivory);
+  --color-fifth: var(--color-black-olive);
+  --color-sixth: var(--color-raspberry-rose);
+  --color-seventh: var(--color-tekhelet);
+
   /* Fonts */
   --font-family: 'Arial', sans-serif;
 }
 
 body {
-  background-color: var(--color-palatinate) !important;
+  background-color: var(--color-first) !important;
 }
+
+header {
+  background-color: var(--color-seventh) !important;
+}
+
+footer {
+  background-color: var(--color-seventh) !important;
+}
+
+.card {
+  --bs-card-bg: var(--color-second) !important;
+}
+
+.nav-pills .nav-link {
+  transition: box-shadow 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.nav-pills .nav-link.active {
+  /* color: ; */
+  background-color: var(--color-third) !important;
+  border: 1px solid var(--color-fourth) !important;
+  transition: box-shadow 0.3s ease;
+}
+
+.nav-pills .nav-link:hover {
+  background-color: var(--color-sixth) !important;
+  box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.7);
+  /* White shadow */
+}
+
+.btn {
+  background-color: var(--color-third) !important;
+  border: var(--bs-btn-border-width) solid var(--color-fourth) !important;
+  box-shadow: 0 0 0 1px black;
+  /* 2px spread, black color */
+  transition: background-color 0.5s ease !important;
+}
+
+.btn:hover {
+  background-color: var(--color-sixth) !important;
+}
+
+.card {
+  /* border: var(--bs-card-border-width) solid var(--color-fifth) !important; */
+  border: 2px solid var(--color-fifth) !important;
+}
+
+.card-body {
+  color: var(--color-third) !important;
+  /* border-top: var(--bs-card-border-width) solid var(--color-fifth) !important; */
+  border-top: 2px solid var(--color-fifth) !important;
+}
+
