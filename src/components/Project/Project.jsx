@@ -60,12 +60,12 @@ const Project = ({ imageSrc, imageAlt, cardText, projectURL, githubURL, projectS
               className="btn btn-primary " 
               data-bs-toggle="modal" 
               data-bs-target="#projectModal"
-              data-bs-imageSrc={imageSrc}
-              data-bs-imageAlt={imageAlt}
-              data-bs-cardText={cardText}
-              data-bs-projectURL={projectURL}
-              data-bs-githubURL={githubURL}
-              data-bs-projectSummaryNum={projectSummaryNum}
+              data-bs-imagesrc={imageSrc}
+              data-bs-imagealt={imageAlt}
+              data-bs-cardtext={cardText}
+              data-bs-projecturl={projectURL}
+              data-bs-githuburl={githubURL}
+              data-bs-projectsummarynum={projectSummaryNum}
               style={{ lineHeight: 0 }}>...</button>
             </div>
           </div>
