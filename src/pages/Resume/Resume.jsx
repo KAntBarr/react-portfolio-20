@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Resume.css';
 
-import realResume from "../../../public/Resume-JanV1-24.pdf";
+// import realResume from "../../../public/Resume-JanV1-24.pdf";
+import realResume from "/Resume-JanV1-24.pdf?url";
 import resumePic from "../../assets/resume.png";
 
 const Resume = ({ }) => {
@@ -24,7 +25,7 @@ const Resume = ({ }) => {
     <div className='container mt-4'>
       <div className='row justify-content-center mx-2'>
 
-        <h2 className='text-center'>Resume</h2>
+        <h2 className='text-center bordered-text'>Resume</h2>
         <div>
 
           <div className="card mx-auto" style={{ maxWidth: '500px' }}  >
