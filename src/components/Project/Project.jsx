@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 // import Modal from '../Modal/Modal';
 import './Project.css';
 
-const Project = ({ imageSrc, imageAlt, cardText, projectURL, githubURL, projectSummary }) => {
+const Project = ({ imageSrc, imageAlt, cardText, projectURL, githubURL, projectSummaryNum }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => setIsHovered(true);
@@ -53,10 +53,20 @@ const Project = ({ imageSrc, imageAlt, cardText, projectURL, githubURL, projectS
               />
 
             </div>
-
+              {/* imageSrc, imageAlt, cardText, projectURL, githubURL, projectSummaryNum */}
             <div className="card-body d-flex justify-content-between">
               <p className="card-text mb-0">{cardText}</p>
-              <button className="btn btn-primary " data-bs-toggle="modal" data-bs-target="#projectModal" style={{ lineHeight: 0 }}>...</button>
+              <button 
+              className="btn btn-primary " 
+              data-bs-toggle="modal" 
+              data-bs-target="#projectModal"
+              data-bs-imageSrc={imageSrc}
+              data-bs-imageAlt={imageAlt}
+              data-bs-cardText={cardText}
+              data-bs-projectURL={projectURL}
+              data-bs-githubURL={githubURL}
+              data-bs-projectSummaryNum={projectSummaryNum}
+              style={{ lineHeight: 0 }}>...</button>
             </div>
           </div>
         </div>

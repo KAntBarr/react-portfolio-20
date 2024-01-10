@@ -11,6 +11,7 @@ import geeksGarage from "../../assets/geeks_garage.png";
 import techBlog from "../../assets/tech_blog.png";
 import quizSite from "../../assets/quiz_site.png";
 
+
 const Portfolio = ({ }) => {
 
 
@@ -27,6 +28,7 @@ const Portfolio = ({ }) => {
               cardText={'Tech Blog'}
               projectURL={'https://tech-blog-ucb-92de467f20ab.herokuapp.com'}
               githubURL={'https://github.com/KAntBarr/tech-blog-14'}
+              projectSummaryNum={0}
             />
             <Project
               imageSrc={weatherDashboard}
@@ -34,6 +36,7 @@ const Portfolio = ({ }) => {
               cardText={'Weather Dashboard'}
               projectURL={'https://kantbarr.github.io/weather-dashboard-6'}
               githubURL={'https://github.com/KAntBarr/weather-dashboard-6'}
+              projectSummaryNum={1}
             />
             <Project
               imageSrc={drinkMovieCombo}
@@ -41,6 +44,7 @@ const Portfolio = ({ }) => {
               cardText={'Drink Movie Combo'}
               projectURL={'https://ucb-allstars-project-1.github.io/movie-cocktail-combo'}
               githubURL={'https://github.com/ucb-allstars-project-1/movie-cocktail-combo'}
+              projectSummaryNum={2}
             />
             <Project
               imageSrc={seniorProject}
@@ -48,6 +52,7 @@ const Portfolio = ({ }) => {
               cardText={'Self Driving RC Car'}
               projectURL={'https://www.youtube.com/playlist?list=PLHFOvcVOvE2IlpS0oUwSvtJbdVLczmRdj'}
               githubURL={'https://github.com/csus-cpe190-191-team2/Team2'}
+              projectSummaryNum={3}
             />
             <Project
               imageSrc={quizSite}
@@ -55,6 +60,7 @@ const Portfolio = ({ }) => {
               cardText={'Quiz Site'}
               projectURL={'https://kantbarr.github.io/js-quiz-site-4'}
               githubURL={'https://github.com/KAntBarr/js-quiz-site-4'}
+              projectSummaryNum={4}
             />
             <Project
               imageSrc={geeksGarage}
@@ -62,6 +68,7 @@ const Portfolio = ({ }) => {
               cardText={'Geeks Garage'}
               projectURL={'https://geeks-garage-alpha-4b07057e044e.herokuapp.com/'}
               githubURL={'https://github.com/ucb-geeks-garage-p2/geeks-garage'}
+              projectSummaryNum={5}
             />
             {/* </div> */}
           {/* </div> */}
