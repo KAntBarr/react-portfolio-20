@@ -141,7 +141,8 @@ const Contact = ({ }) => {
     setTimeout(resetThanks, 7500);
 
     document.getElementById("inputMessage").value = '';
-    setNew(true);
+    // setNew(true);
+    setHasMessage(false);
 
     // event.target.reset();
   }
@@ -174,11 +175,11 @@ const Contact = ({ }) => {
               ?
               <button
                 type="submit"
-                className="btn btn-primary mx-auto px-4">Submit</button>
+                className="btn btn-primary rounded-btn mx-auto px-4">Submit</button>
               :
               <button
                 type="submit"
-                className="btn btn-primary mx-auto px-4" disabled>Submit</button>
+                className="btn btn-primary rounded-btn mx-auto px-4" disabled>Submit</button>
             }
             {showThanks && <div id="messageHelp" className="form-text mt-3">The contact form is not fully functional yet, thank you for the message anyways!</div>}
           </form>

@@ -60,7 +60,7 @@ const Resume = ({ }) => {
                 download="koby_b_resume.pdf"
               >
                 <button
-                  className="btn btn-primary"
+                  className="btn btn-primary rounded-btn"
                   style={{ maxWidth: '10em' }}
                 >
                   Download

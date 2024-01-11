@@ -1,0 +1,11 @@
+.modal-content, .modal-header, .modal-footer {
+  border: none;
+}
+
+.modal-content {
+  background-color: transparent;
+}
+
+.rounded-img {
+  border-radius: 1em;
+}

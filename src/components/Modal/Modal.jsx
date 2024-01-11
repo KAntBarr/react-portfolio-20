@@ -54,7 +54,7 @@ const Modal = ({ }) => {
 
               <img
                 src={imageSrc}
-                className=''
+                className='rounded-img'
                 style={{ width: '95%' }}
               />
               {/* <p
@@ -82,7 +82,10 @@ const Modal = ({ }) => {
             </div>
           </div>
           <div className="modal-footer justify-content-center">
-            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button 
+            type="button" 
+            className="btn btn-secondary rounded-btn" 
+            data-bs-dismiss="modal">Close</button>
           </div>
         </div>
       </div>

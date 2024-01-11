@@ -69,13 +69,14 @@ footer {
 
 .btn {
   background-color: var(--color-third) !important;
-  border: var(--bs-btn-border-width) solid var(--color-fourth) !important;
-  box-shadow: 0 0 0 1px black;
+  border: var(--bs-btn-border-width) solid var(--color-third) !important;
+  /* box-shadow: 0 0 0 1px black; */
   transition: background-color 0.5s ease !important;
 }
 
 .btn:hover {
   background-color: var(--color-sixth) !important;
+  border: var(--bs-btn-border-width) solid var(--color-fourth) !important;
 }
 
 .card {
@@ -109,4 +110,13 @@ footer {
     1px -1px 0 black,
     -1px 1px 0 black,
     1px 1px 0 black;
+}
+
+.rounded-btn {
+  border-radius: 5em !important;
+  /* box-shadow: none; */
+}
+
+.rounded-btn:hover {
+  border: var(--bs-btn-border-width) solid var(--color-sixth) !important;
 }
