@@ -120,3 +120,20 @@ footer {
 .rounded-btn:hover {
   border: var(--bs-btn-border-width) solid var(--color-sixth) !important;
 }
+
+body.modal-open>div>div>header,
+body.modal-open>div>div>footer {
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
+
+body.modal-open>div>div>main>.container {
+  -webkit-filter: blur(30px);
+  -moz-filter: blur(30px);
+  -o-filter: blur(30px);
+  -ms-filter: blur(30px);
+  filter: blur(30px);
+}
