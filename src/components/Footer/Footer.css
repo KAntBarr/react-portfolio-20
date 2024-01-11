@@ -5,6 +5,12 @@
   filter: invert(100%);
 }
 
+.footer-github:hover {
+  fill: var(--color-eighth);
+  stroke: #4ffff3ff;
+  filter: none;
+}
+
 .border-top {
   /* border-top: var(--bs-border-width) var(--bs-border-style) var(--color-fourth) !important; */
   border-top: 1px var(--bs-border-style) var(--color-fourth) !important;
