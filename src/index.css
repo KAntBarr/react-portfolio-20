@@ -178,3 +178,26 @@ p {
 label {
   font-size: 1.4rem;
 }
+
+.gitcat {
+  /* padding: 2px; */
+  background-color: black;
+  opacity: 0.3;
+  text-shadow: 0 0 30px #000000,
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+  
+  fill: var(--color-third);
+  stroke: var(--color-fourth);
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  box-shadow: 0 0 15px var(--color-eighth);
+}
+
+.gitcat:hover {
+  opacity: 0.8;
+  /* fill: var(--color-fourth); */
+  box-shadow: 0 0 10px var(--color-third);
+}
