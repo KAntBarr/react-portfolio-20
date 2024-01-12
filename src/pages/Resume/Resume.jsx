@@ -25,7 +25,7 @@ const Resume = ({ }) => {
     <div className='container mt-4'>
       <div className='row justify-content-center mx-2'>
 
-        <h2 className='text-center bordered-text'>Resume</h2>
+        <h1 className='text-center bordered-text'>Resume</h1>
         <div>
 
           <div className="card mx-auto" style={{ maxWidth: '500px' }}  >
@@ -40,7 +40,7 @@ const Resume = ({ }) => {
                 {isHovered && <Link
                   to={'/public/Resume-JanV1-24.pdf'}
                   target='_blank'
-                  className=""
+                  className="a-nothead"
                 >
                   View
                 </Link>}
@@ -60,7 +60,7 @@ const Resume = ({ }) => {
                 download="koby_b_resume.pdf"
               >
                 <button
-                  className="btn btn-primary rounded-btn"
+                  className="btn btn-primary rounded-btn download-btn"
                   style={{ maxWidth: '10em' }}
                 >
                   Download

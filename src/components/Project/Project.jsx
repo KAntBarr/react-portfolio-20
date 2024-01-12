@@ -25,7 +25,7 @@ const Project = ({ imageSrc, imageAlt, cardText, projectURL, githubURL, projectS
                     <Link
                       to={projectURL}
                       target='_blank'
-                      className="mb-4"
+                      className="mb-4 a-nothead"
                     >
                       {imageAlt}
                     </Link>
@@ -60,7 +60,7 @@ const Project = ({ imageSrc, imageAlt, cardText, projectURL, githubURL, projectS
 
             </div>
             <div className="card-body d-flex justify-content-between">
-              <p className="card-text mb-0">{cardText}</p>
+              <p className="card-text mb-0 project-name">{cardText}</p>
               <button
                 className="btn btn-primary "
                 data-bs-toggle="modal"

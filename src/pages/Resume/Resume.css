@@ -30,3 +30,7 @@
 .image-container-resume:hover .blur {
   filter: none;
 }
+
+.download-btn {
+  font-weight: 540;
+}

@@ -22,14 +22,14 @@ function Nav() {
         </div>
 
 
-        <h1 className='d-sm-none mb-0 name-font'>Koby</h1>
+        <h1 className='d-sm-none mb-0 name-font'>Koby B</h1>
         <button className="navbar-toggler collapsed floater bg-dark outlined" type="button" data-bs-toggle="collapse" data-bs-target="#navabarMain" aria-controls="navabarMain" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
 
         <div className="navbar-collapse collapse justify-content-end justify-content-md-center" id="navabarMain">
 
-          <h1 className='d-none d-sm-block mx-auto name-font'>Koby</h1>
+          <h1 className='d-none d-sm-block m-auto name-font'>Koby</h1>
 
           <ul className="navbar-nav nav-pills mb-2 mb-sm-0 pt-1 pt-sm-0">
             <li className="nav-item">
@@ -66,7 +66,7 @@ function Nav() {
             </li>
           </ul>
 
-          <h1 className='d-none d-sm-block mx-auto'>Barrett</h1>
+          <h1 className='d-none d-sm-block m-auto name-font'>Barrett</h1>
 
         </div>
 

@@ -62,7 +62,7 @@ const Modal = ({ }) => {
                 <Link
                   to={projectURL}
                   target='_blank'
-                  className=""
+                  className="a-modal"
                 >
                   Go To Website
                 </Link>
