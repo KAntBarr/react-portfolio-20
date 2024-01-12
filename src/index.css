@@ -32,6 +32,8 @@
   --color-sixth: var(--color-raspberry-rose);
   --color-seventh: var(--color-tekhelet);
   --color-eighth: var(--color-plum);
+  --color-ninth: var(--color-french-violet);
+  --color-tenth: var(--color-thistle);
 
   /* Fonts */
   --font-family: 'Arial', sans-serif;
@@ -136,4 +138,20 @@ body.modal-open>div>div>main>.container {
   -o-filter: blur(30px);
   -ms-filter: blur(30px);
   filter: blur(30px);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p {
+  font-family: 
+}
+
+.head-font {
+  font-family: ;
+}
+
+.name-font {
+  font-family: 
 }

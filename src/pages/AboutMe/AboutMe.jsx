@@ -10,8 +10,8 @@ const AboutMe = ({ }) => {
         <div className='col-md-8 offset-md-2 col-lg-6 offset-lg-3'>
           <div className='d-flex justify-content-between align-items-end mb-2 pe-5'>
             <h1 className='mt-4 mt-md-5 mb-3 ms-5 mx-md-0 text-md-start bordered-text'>I'm Koby</h1>
-            <a className="" target="_blank" href="https://www.linkedin.com/in/koby-barrett-74a22b1a6/">
-              <img src={selfie} alt="A Pic of Koby" className="circle me-5" />
+            <a className="me-5" target="_blank" href="https://www.linkedin.com/in/koby-barrett-74a22b1a6/">
+              <img src={selfie} alt="A Pic of Koby" className="circle " />
             </a>
           </div>
           <p className='text-md-start mt-4 ptext'>

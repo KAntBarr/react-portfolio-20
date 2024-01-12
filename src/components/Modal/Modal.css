@@ -9,3 +9,7 @@
 .rounded-img {
   border-radius: 1em;
 }
+
+.modalSummary {
+  background-color: var(--color-ninth);
+}
