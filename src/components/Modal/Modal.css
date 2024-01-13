@@ -1,4 +1,6 @@
-.modal-content, .modal-header, .modal-footer {
+.modal-content,
+.modal-header,
+.modal-footer {
   border: none;
 }
 
@@ -11,5 +13,57 @@
 }
 
 .modalSummary {
-  background-color: var(--color-ninth);
+  background-color: var(--color-twelfth);
+  padding: 0.3em;
+  border-radius: 0.5em;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.bg-blur {
+  width: 1000vw;
+  height: 1000vh;
+  background-color: var(--color-eighth);
+  filter: blur(50px);
+  opacity: 0.65;
+  position: fixed;
+  top: -100em;
+  left: -100em;
+  z-index: -1;
+}
+
+.link-box svg {
+  margin: 0 1em 0 1em;
+}
+
+.link-box {
+  background-color: var(--color-twelfth);
+  box-shadow: 0 0 30px var(--color-twelfth);
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.modal-title {
+  font-family: "Lobster", Tofu;
+  font-size: 3rem !important;
+  text-shadow: 0 0 50px #fff;
+}
+
+.modal-btn {
+  background-color: var(--color-eighth) !important;
+  border: 1px solid var(--color-eighth) !important;
+  box-shadow: 0 0 20px #fff;
+}
+
+.modal-btn:hover {
+  box-shadow: 0 0 20px var(--color-madder);
+}
+
+.silly-cat:hover {
+  /* fill: var(--color-eighth); */
+  stroke: var(--color-third);
+}
+
+.goto:hover {
+  fill: var(--color-third);
 }

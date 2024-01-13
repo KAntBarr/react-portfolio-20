@@ -34,7 +34,9 @@
   --color-eighth: var(--color-plum);
   --color-ninth: var(--color-french-violet);
   --color-tenth: var(--color-thistle);
-
+  --color-eleventh: var(--color-mauve);
+  --color-twelfth: var(--color-rose-quartz);
+  
   /* Fonts */
   --font-family: 'Arial', sans-serif;
 }
@@ -167,7 +169,7 @@ p {
 }
 
 .head-font {
-  font-family: "Lobster variant0", Tofu;
+
 }
 
 .name-font {
