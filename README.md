@@ -17,6 +17,7 @@ Visit this website --> https://kantbarr.netlify.app/
 ## Credits
 - vite v4.4.5 => https://vitejs.dev/
 - react v18.2.0 => https://react.dev/
+- google fonts => https://fonts.googleapis.com/css?family=Lobster|Chakra+Petch
 
 ## License
 Licensed under the Apache license 2.0 license.
