@@ -43,12 +43,12 @@ const Modal = ({ }) => {
   }, []);
 
   return (
-    <div className="modal fade" id="projectModal" tabIndex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+    <div className="modal fade bg-blur" id="projectModal" tabIndex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
       <div className="modal-dialog modal-dialog-centered modal-lg">
         <div className="modal-content">
           <div className="modal-header justify-content-center">
 
-            <div className='bg-blur'></div>
+            {/* <div className='bg-blur'></div> */}
 
             <h1 className="modal-title fs-5 text-center" id="projectModalLabel">{imageAlt}</h1>
           </div>
@@ -83,11 +83,9 @@ const Modal = ({ }) => {
 
               </div>
 
-              {/* <div className='flex-grow-1 modalSummary'> */}
               <p
                 className='flex-grow-1 modalSummary m-auto'
               >{projectSummaries[projectSummaryNum]}</p>
-              {/* </div> */}
 
             </div>
           </div>

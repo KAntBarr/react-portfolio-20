@@ -18,9 +18,10 @@
   border-radius: 0.5em;
   color: white;
   font-size: 1.1rem;
+  opacity: 0.4;
 }
 
-.bg-blur {
+/* .bg-blur {
   width: 1000vw;
   height: 1000vh;
   background-color: var(--color-eighth);
@@ -30,6 +31,10 @@
   top: -100em;
   left: -100em;
   z-index: -1;
+} */
+
+.bg-blur {
+  background-color: rgba(141, 59, 114, 0.60);
 }
 
 .link-box svg {
