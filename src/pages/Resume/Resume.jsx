@@ -39,7 +39,7 @@ const Resume = ({ }) => {
                 onClick={openPdfInNewTab}
               >
                 {isHovered && <Link
-                  to={'/public/Resume-JanV1-24.pdf'}
+                  to={'/public/KB-Resume.pdf'}
                   target='_blank'
                   className="a-nothead"
                 >
