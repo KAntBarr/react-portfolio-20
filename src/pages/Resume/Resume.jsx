@@ -67,7 +67,7 @@ const Resume = ({ }) => {
                   Download
                 </button>
               </a>
-              <p className="card-text mt-1">Last Updated: 01/06/2024</p>
+              <p className="card-text mt-1">Last Updated: 02/01/2024</p>
             </div>
 
           </div>
