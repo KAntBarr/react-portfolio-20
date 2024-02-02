@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Resume.css';
 
 // import realResume from "../../../public/Resume-JanV1-24.pdf";
-import realResume from "/Resume-JanV1-24.pdf?url";
+import realResume from "/KB-Resume.pdf?url";
 import resumePic from "../../assets/resume.png";
 
 const Resume = ({ }) => {
@@ -18,7 +18,8 @@ const Resume = ({ }) => {
   };
 
   const openPdfInNewTab = () => {
-    window.open('/Resume-JanV1-24.pdf', '_blank');
+    // window.open('/Resume-JanV1-24.pdf', '_blank');
+    window.open('/KB-Resume.pdf', '_blank');
   };
 
   return (
