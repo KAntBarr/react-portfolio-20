@@ -4,7 +4,7 @@ import './Resume.css';
 
 // import realResume from "../../../public/Resume-JanV1-24.pdf";
 import realResume from "/KB-Resume.pdf?url";
-import resumePic from "../../assets/resume.png";
+import resumePic from "../../assets/resume_2-1-24.png";
 
 const Resume = ({ }) => {
   const [isHovered, setIsHovered] = useState(false);
